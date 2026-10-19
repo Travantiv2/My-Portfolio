@@ -32,7 +32,7 @@ p {
 }
 
 nav {
-    background-color: var(--galaxy-purple);
+    background-color: var(--deep-galaxy-purple);
     padding: 16px;
     display: flex;
     gap: 16px;
@@ -50,18 +50,27 @@ nav a {
 }
 
 nav a:hover {
-   background-color: blueviolet;
-   color: #ffffff;
+   background-color: var(--galaxy-pink);
+   color: var(--galaxy-light);
    border-radius: 12px;
 }
 
+#home {
+    text-align: center;
+    padding: 60px 30px;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
 section {
     background-color: var(--deep-galaxy-purple);
     margin: 1.5rem auto;
-    border: 1px solid #dddddd;
+    border: 1px solid var(--galaxy-purple);
     border-radius: 12px;
     padding: 30px;
-    width: 80%;
+    width: 90%;
     max-width: 900px;
 }
 
