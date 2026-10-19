@@ -1,4 +1,4 @@
-root{
+:root {
     --galaxy-black: #070710;
     --deep-galaxy-purple: #330988;
     --galaxy-purple: #5f25e7;
@@ -12,7 +12,7 @@ root{
 }
 
 body {
-    background-color: #f4f6f8;
+    background-color: var(--galaxy-black);
     margin: 0;
     color: #000000;
     font-family: Arial, sans-serif;
