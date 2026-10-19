@@ -32,7 +32,7 @@ p {
 }
 
 nav {
-    background-color: var(--deep-galaxy-purple);
+    background-color: var(--galaxy-purple);
     padding: 16px;
     display: flex;
     gap: 16px;
