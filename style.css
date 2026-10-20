@@ -27,6 +27,10 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 25px
+}
+
 p {
     line-height: 1.6;
 }
@@ -64,6 +68,12 @@ nav a:hover {
     font-size: 48px;
     margin-bottom: 16px;
 }
+
+#home h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
 section {
     background-color: var(--deep-galaxy-purple);
     margin: 1.5rem auto;
@@ -72,6 +82,26 @@ section {
     padding: 30px;
     width: 90%;
     max-width: 900px;
+}
+
+.project-card {
+    background-color: var(--galaxy-black);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project-card a {
+   color: var(--galaxy-pink);
+    text-decoration: none;
+    padding: 8px;
+    transition: .35s;
+    cursor: pointer;
+}
+
+.project-card a:hover{
+    background-color: var(--galaxy-pink);
+    color: var(--galaxy-light);
+    border-radius: 8px;
 }
 
 .highlight {
