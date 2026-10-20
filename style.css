@@ -111,6 +111,13 @@ section {
     border-radius: 8px;
 }
 
+#theme-toggle {
+    background: none;
+    border: none;
+    color: var(--galaxy-light);
+    cursor: pointer;
+}
+
 .highlight {
     color: var(--galaxy-light);
 }
