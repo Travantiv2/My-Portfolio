@@ -8,6 +8,12 @@
     --galaxy-light: #f4f1fa;
 }
 
+.light-theme {
+    --galaxy-black: #f4f1fa;
+    --deep-galaxy-purple: #ffffff;
+    --galaxy-light: #20133B;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -96,6 +102,7 @@ section {
     padding: 8px;
     transition: .35s;
     cursor: pointer;
+    display: inline-block;
 }
 
 .project-card a:hover{
